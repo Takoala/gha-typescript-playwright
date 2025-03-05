@@ -52,7 +52,7 @@ jobs:
           if: success() || failure()    
           with:
             name: 'Publish test report (Playwright)'         
-            path: 'playwright-report/results.xml'   
+            path: 'playwright-report/index.html'   
             reporter: java-junit 
             list-tests: all 
             list-suites: all 
